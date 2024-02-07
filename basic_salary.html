@@ -1,0 +1,29 @@
+<html>
+    <body bgcolor="yellow">
+
+import java.util.*;<br>
+
+public class basic_salary {<br>
+
+    public static void main(String[] args) {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter Basic salary");<br>
+        int bs;<br>
+        bs = sc.nextInt();<br>
+        int da, ta;<br>
+
+        if (bs >= 10000) {<br>
+            da = bs * 40 / 100;<br>
+            ta = bs * 30 / 100;<br>
+        } else {<br>
+            da = bs * 30 / 100;<br>
+            ta = bs * 20 / 100;<br>
+        }<br>
+        System.out.println("besic salary " + bs);<br>
+        System.out.println("bs=" + da + " ta= " + ta);<br>
+        System.out.println("Total Grow salary" + (bs + da + ta));<br>
+
+    }<br>
+}<br>
+</html>
+    </body>

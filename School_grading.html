@@ -1,0 +1,40 @@
+<html>
+    <body bgcolor="yellow">
+import java.util.*;<br>
+
+public class School_grading {<br>
+
+    public static void main(String[] args) {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter Grad");<br>
+        int mar;<br>
+        mar = sc.nextInt();<br>
+
+        if (mar < 25) {<br>
+            System.out.println("f");<br>
+
+        } else if ((mar >= 25) && (mar < 45)) {<br>
+            System.out.println("e");<br>
+        }<br>
+
+        else if ((mar >= 45) && (mar < 50)) {<br>
+            System.out.println("d");<br>
+
+        } else if ((mar >= 50) && (mar < 60)) {<br>
+            System.out.println("c");<br>
+
+        } else if ((mar >= 60) && (mar < 80)) {<br>
+            System.out.println("B");<br>
+
+        } else if ((mar >= 80) && (mar < 100)) {<br>
+            System.out.println("A");<br>
+        } else {<br>
+            System.out.println("not correct marks");<br>
+
+        }<br>
+
+    }<br>
+
+}<br>
+</body>
+</html>

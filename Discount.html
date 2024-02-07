@@ -1,0 +1,26 @@
+<html>
+    <body bgcolor="yellow">
+import java.util.*;<br>
+
+public class Discount {<br>
+    public static void main(String[] args) {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter product");<br>
+        int p, t, y, x;<br>
+        x = sc.nextInt();<br>
+
+        t = x * 100;<br>
+        if (t > 2000) {<br>
+            p = t * 10 / 100;<br>
+            y = t - p;<br>
+
+            System.out.println("Discount" + p);<br>
+            System.out.println("total pay" + y);<br>
+        } else {<br>
+            System.out.println("not dicount");<br>
+        }<br>
+    }<br>
+}<br>
+
+    </html>
+    </body>
