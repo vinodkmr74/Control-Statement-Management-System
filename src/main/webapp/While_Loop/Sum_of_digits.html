@@ -1,0 +1,26 @@
+<html>
+    <body bgcolor="yellow">
+import java.util.*;<br>
+
+public class Sum_of_digits<br>
+ {<br>
+
+    public static void main(String[] args) <br>
+    {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter a number");<br>
+        int n, rem, sum = 0;<br>
+        n = sc.nextInt();<br>
+
+        while (n > 0) {<br>
+            rem = n % 10;<br>
+            sum = sum + rem;<br>
+            n = n / 10;<br>
+
+        }<br>
+        System.out.println(sum);<br>
+
+    }<br>
+}<br>
+</body>
+</html>

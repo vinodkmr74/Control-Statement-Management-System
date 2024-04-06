@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor="yellow">
+import java.util.*;<br>
+
+public class Fibonacci <br>
+{<br>
+
+    public static void main(String[] args) <br>
+    {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter a number");<br>
+        int x = 0, y = 1, z = 0, n;<br>
+        n = sc.nextInt();<br>
+        while (z <= n) <br>
+        {<br>
+            System.out.println(z);<br>
+            x = y;<br>
+            y = z;<br>
+            z = x + y;<br>
+        }<br>
+
+    }<br>
+}<br>
+</body>
+</html>

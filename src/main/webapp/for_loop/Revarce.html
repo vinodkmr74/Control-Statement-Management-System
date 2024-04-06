@@ -1,0 +1,24 @@
+<html>
+    <body bgcolor="yellow">
+import java.util.*;<br>
+
+public class Revarce {<br>
+    public static void main(String[] args) {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter an digit");<br>
+
+        int n, rem, reverce = 0;<br>
+        n = sc.nextInt();<br>
+
+        while (n > 0) {<br>
+            rem = n % 10;<br>
+            reverce = reverce * 10 + rem;<br>
+            n = n / 10;<br>
+
+            System.out.println(reverce);<br>
+        }<br>
+
+    }<br>
+}<br>
+</body>
+</html>

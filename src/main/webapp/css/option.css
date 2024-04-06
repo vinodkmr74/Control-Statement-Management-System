@@ -1,0 +1,58 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.contennar{
+
+    border-radius: 5px;
+    height: 50rem;
+
+    background-color:rebeccapurple;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+#bt1{
+    background-color: rgb(92, 181, 223);
+    margin-left: 25rem;
+    height: 80px;
+    width: 50rex;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}
+#bt2{
+    background-color: rgb(92, 181, 223);
+    margin-left: 25rem;
+
+    height: 80px;
+    width: 50rex;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}
+#bt3{
+    background-color: rgb(92, 181, 223);
+    margin-left: 25rem;
+    height: 80px;
+    width: 50rex;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}
+#bt4{
+    background-color: rgb(92, 181, 223);
+    
+    margin-left: 25rem;
+    height: 80px;
+    width: 50rex;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    
+}

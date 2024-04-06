@@ -1,0 +1,56 @@
+
+body{
+
+    width: 100%;
+    background-image: url("../image/Java_img.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+#box
+{
+    background-color: yellow;
+    height: 60px;
+    width: 84rem;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.cont{
+
+    background-color:cornflowerblue;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 25px;
+    border: 10px solid rgb(40, 27, 165); 
+    border-radius: 10px;
+    
+}
+.submit input{
+    width: 100px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    color: blue;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+.content{
+    
+    
+        background-color: rgb(92, 181, 223);
+        
+        height: 80px;
+        width: 188rex;
+        text-align: center;
+        margin-top: 310px;
+        margin-left: 0px;
+        font-size: 15px;
+        
+    }

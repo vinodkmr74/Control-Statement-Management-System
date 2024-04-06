@@ -1,0 +1,96 @@
+
+#box
+{
+    background-color: yellow;
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.about{
+	margin-left:100px;
+}
+body {
+    width: 100%;
+    background-image: url("../image/Java_img.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+#img1
+{
+    width: 150px;
+    height: 150px;
+    margin: 5rem 2rem;
+    border: 2px solid yellow; 
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightblue;
+}
+#img2
+{
+    width: 200px;
+    height: 200px;
+   margin-right: 60px;
+   margin-top: 1rem;
+    border-radius: 60%;
+}
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#box2{
+
+
+    background-color: rgb(92, 181, 223);
+    height: 80px;
+    width: 189rex;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 15px;
+    
+}
+
+
+.boxls
+{
+
+    background-color:darkorange;
+    height: 160px;
+    width: 160px;
+    margin-top: 3px;
+    margin-left: 20px;
+    border: 5px solid yellow; 
+    border-radius: 10px;
+ 
+}
+
+.button{
+    
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-bottom: 5px;
+    color: chartreuse;
+   
+
+
+}
+.button1{
+    
+padding: 8px 8px 8px 8px;
+background-color: blue;
+
+}
+.button2
+{
+    padding: 10px 10px 10px;
+    background-color: red;
+    width: 120px;
+}

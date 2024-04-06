@@ -1,0 +1,28 @@
+<html>
+    <body bgcolor="yellow">
+import java.util.*;<br>
+
+public class prime_not <br>
+{<br>
+
+    public static void main(String[] args) <br>
+    {<br>
+        Scanner sc = new Scanner(System.in);<br>
+        System.out.println("Enter a number");<br>
+        int i = 1, j, n, cont = 0;<br>
+        n = sc.nextInt();<br>
+        while (i <= n) {<br>
+            if (n % i == 0)<br>
+                cont = cont + 1;<br>
+            i++;<br>
+        }<br>
+        if (cont == 2) {<br>
+            System.out.println("prime");<br>
+
+        } else {<br>
+            System.out.println("not prine");<br>
+        }<br>
+    }<br>
+}<br>
+</body>
+</html>
